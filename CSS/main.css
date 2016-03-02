@@ -13,8 +13,8 @@ text-decoration: none;
   padding: 0 5%;
 }
 
-div.column > div {
-  margin-bottom: -3px;
+div.column > div > img {
+  vertical-align: bottom;
 }
 
 img {
@@ -147,6 +147,21 @@ footer {
   bottom:0;
 }
 
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin: 0 0 100px; /* bottom = footer height */
+}
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+}
+
 /* PAGE: PORTFOLIO */
 
 #gallery {
@@ -191,7 +206,7 @@ footer {
   display: block;
   max-width: 150px;
   margin: 0 auto 30px;
-  padding: 0;
+
 }
 
 /* SALVADORE TEST */
