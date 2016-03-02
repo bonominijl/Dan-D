@@ -1,0 +1,86 @@
+@media screen and (min-width: 660px) {
+
+/* HEADER */
+
+  nav {
+    background: none;
+    float: right;
+    font-size: 1.125em;
+    margin-right: 5%;
+    text-align: right;
+    width: 45%;
+  }
+
+  #logo {
+    float: left;
+    margin-left: 5%;
+    text-align: left;
+    width: 45%;
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  h2 {
+    font-size: 0.825em;
+    margin-bottom: 20px;
+  }
+
+  header {
+    border-bottom: 3px solid #a8a8a8;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+/* TWO COLUMN LAYOUT */
+/* PAGE: PORTFOLIO */
+/* PAGE: ABOUT */
+  .profile-photo {
+    float: left;
+    margin: 0 5% 80px 0;
+  }
+  .mail-photo {
+    float: left;
+    margin: 0 5% 60px 0;
+    max-width: 45px;
+  }
+}
+
+/* MEDIA QUERY FOR SMARTPHONES */
+@media screen and (max-width: 479px) {
+h1 {
+  background-image: url("Img/DD.png");
+}
+
+#wrapper {
+  text-align:center;
+}
+/* CONTACT PAGE */
+.mail-photo {
+  max-width: 100px;
+}
+
+/* SALVATORE RESPONSIVE */
+@media screen and (max-width: 480px){
+	#grid[data-columns]::before {
+
+	}
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+	#grid[data-columns]::before {
+
+	}
+}
+@media screen and (min-width: 769px) {
+	#grid[data-columns]::before {
+
+	}
+}
+
+.column { float: left; }
+.size-1of1 { width: 100%; }
+.size-1of2 { width: 50%; }
+.size-1of3 { width: 33.333%; }
